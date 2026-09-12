@@ -1,0 +1,39 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-nycpayroll-martin"
+		},
+		"ls_adls_nycpayroll_accountKey": {
+			"value": ""
+		},
+		"ls_sql_nycpayroll_password": {
+			"value": ""
+		},
+		"ls_synappse_udacity_password": {
+			"value": ""
+		},
+		"ls_adls_nycpayroll_properties_typeProperties_url": {
+			"value": "https://adlsnycpayrollger.dfs.core.windows.net/"
+		},
+		"ls_sql_nycpayroll_properties_typeProperties_server": {
+			"value": "sqlsrv-nycpayroll-martin.database.windows.net"
+		},
+		"ls_sql_nycpayroll_properties_typeProperties_database": {
+			"value": "db_nycpayroll"
+		},
+		"ls_sql_nycpayroll_properties_typeProperties_userName": {
+			"value": "ger-admin"
+		},
+		"ls_synappse_udacity_properties_typeProperties_server": {
+			"value": "snyworkspace-martin-ondemand.sql.azuresynapse.net"
+		},
+		"ls_synappse_udacity_properties_typeProperties_database": {
+			"value": "udacity"
+		},
+		"ls_synappse_udacity_properties_typeProperties_userName": {
+			"value": "ger-admin"
+		}
+	}
+}
